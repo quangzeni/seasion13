@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        nhập 1 số n
+        tìm các số chia hết cho 3 và không chia hết cho 5 từ 1=>n
+        tính tổng các số đó.
+         1-20: 3;6;9;12;18
+     -->
+    <script>
+        let n = +prompt("Nhập vào số n nguyên dương: ");
+        let sum = 0;
+        // for (let i = 1; i <= n; i++) {
+        //     if (i % 3 == 0 && i % 5 != 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log("tong các số chia hết cho 3, ko chia cho 5 là: ", sum);
+        let i =0;
+        while(i<=n){
+            if (i % 3 == 0 && i % 5 != 0) {
+                sum += i;
+            }
+            i++;
+        }
+        console.log("tong các số chia hết cho 3, ko chia cho 5 là: ", sum);
+    </script>
+</body>
+
+</html>

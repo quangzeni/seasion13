@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+      let arrInt = [1,5,2,9,3,7];
+      console.log("array ban dau", arrInt);
+      let arrNew= arrInt.sort((a,b)=>b-a);
+      console.log("array sau khi sap xep giam dan", arrNew);
+      let arrNew2 = arrNew.splice(0,2);
+      console.log("array voi 2 so lon nhat", arrNew2);
+      console.log("gia tri lon thu 2 cua Mang", arrNew2.pop());
+    </script>
+</body>
+
+</html>
