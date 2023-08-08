@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //   let theKy = () =>{
+        //     let number = +prompt("Nhap so nam: ");
+        //     let sotheKy = Math.ceil(number/100);
+        //     console.log(sotheKy);
+        //     return sotheKy;
+        //   }
+        //   theKy();
+        //  bai 4
+        // let daySo = (...cutArray) =>{
+        //     let inputArray = prompt("Nhap vao chuoi 15 ky tu:");
+        //     let newArray = inputArray.slice(0,9); 
+        //     console.log("Chuoi moi: ", newArray+ "...");
+        // }
+        // daySo()
+        // bai5
+        // let chuanHoa = () => {
+        // let chuNhap = prompt("Nhap Chu bat ky:");
+        // let chuSua = [];
+        // let text = chuNhap.slice(0,1).toUpperCase();
+        // let text_2 = chuNhap.slice(1).toLowerCase();
+        // chuSua = text.concat(text_2);
+        // console.log("chu Nhap vao la", chuNhap);
+        // console.log("chu sua lai la", chuSua);
+
+        // }
+        // chuanHoa();
+
+        // bai6
+        // let nhapChuoiSo = []
+        // for(i=0;i<5;i++){
+        //     nhapChuoiSo[i] = +prompt("Nhap mang so bat ki:");
+        //     }
+        // console.log(nhapChuoiSo,"cu");
+        // let lonNhat = ()=>{
+        //     let chuoiTam = nhapChuoiSo.sort((a,b=>b-a));
+        //     console.log(chuoiTam[0]);
+        // }
+        // lonNhat()
+        // bai8
+        let arrInt = [1, 2, 3, 4, 7];
+        let trungBinhCong = (arrInt) => {
+            let sum = 0;
+            for (let i = 0; i < arrInt.length; i++) {
+                sum += arrInt[i];
+            }
+            return sum / arrInt.length;
+        }
+        console.log("trung binh cong cua mang so arrInt la:" + trungBinhCong(arrInt));
+    </script>
+
+
+</body>
+
+</html>
